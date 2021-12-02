@@ -7,8 +7,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lection 9 classwork</title>
 </head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .wrapper {
+        display: flex;
+        width: 100%;
+        background-color: yellow;
+        flex-direction: column;
+    }
+    
+    #container,
+    .courseContainer {
+        padding: 15px;
+        justify-content: space-around;
+        column-gap: 15px;
+        row-gap: 15px;
+        display: flex;
+        max-width: 1000px;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+    
+    .card {
+        width: 250px;
+        border: 3px solid black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    .card_photo {
+        width: 250px;
+        margin-bottom: 15px;
+    }
+    
+    .courseContainer .card {
+        border-radius: 30px;
+        background: url(https://owu.com.ua/image/logo/webp/Blue-Big-Bird-Final-Logo.webp) no-repeat center;
+        background-size: contain;
+        background-color: rgb(55, 156, 245);
+        text-shadow: 1px 1px 2px red, 0 0 0.2em yellow;
+        align-items: flex-start;
+    }
+    
+    .courseContainer .card h1 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    
+    .courseContainer p {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        font-size: 20px;
+        font-weight: 900;
+        margin-bottom: 10px;
+    }
+    
+    .courseContainer ul {
+        font-size: 18px;
+        padding-left: 20px;
+    }
+</style>
 
 <body>
+    <div class="wrapper">
+        <div id="container">
+        </div>
+    </div>
 
 
 
